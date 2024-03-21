@@ -1,0 +1,25 @@
+{
+  "name": "express-checkr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.3",
+    "mysql2": "^3.9.2",
+    "sequelize": "^6.37.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.28",
+    "nodemon": "^3.1.0",
+    "typescript": "^5.3.2"
+  }
+}
